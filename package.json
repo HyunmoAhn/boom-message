@@ -1,0 +1,8 @@
+{
+  "name": "boom-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HyunmoAhn/boom-message.git",
+  "author": "Hyunmoahn <mos_dev@naver.com>",
+  "license": "MIT"
+}
