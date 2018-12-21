@@ -16,6 +16,14 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    contentBase: 'build',
+    disableHostCheck: true, // do not use production mode
+    historyApiFallback: true,
+    hot: true,
+    host: '0.0.0.0',
+    port: 4000,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'src/index.html'),
