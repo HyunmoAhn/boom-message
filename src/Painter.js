@@ -27,9 +27,12 @@ class Painter {
     const resultIndex = prevIndex > nextIndex ? nextIndex : nextIndex + 1;
 
     targetDOM.getElementsByClassName('message-time')[0].innerHTML = time;
-    const NThMessage = listDOM.getElementsByClassName('message')[resultIndex];
 
-    listDOM.insertBefore(targetDOM, NThMessage);
+    if (prevIndex !== nextIndex) {
+      const NThMessage = listDOM.getElementsByClassName('message')[resultIndex];
+
+      listDOM.insertBefore(targetDOM, NThMessage);
+    }
   }
 }
 
