@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test element.js should test createButton 1`] = `
+<button>
+  mock
+</button>
+`;
+
+exports[`test element.js should test createSelect 1`] = `
+<select>
+  <option
+    value="3"
+  >
+    3초
+  </option>
+  <option
+    value="5"
+  >
+    5초
+  </option>
+  <option
+    value="2-times"
+  >
+    2배
+  </option>
+  <option
+    value="3-times"
+  >
+    3배
+  </option>
+</select>
+`;
