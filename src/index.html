@@ -6,24 +6,28 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Boom Message</title>
+  <style>
+    select {
+      margin: 5px;
+    }
+  </style>
 </head>
 <body>
   <h1>펑 리스트</h1>
   <div>
     <span>메세지</span>
-    <input type="text">
+    <input id="input-text" type="text">
     <span>시간</span>
-    <select name="" id="">
+    <select name="" id="select-time">
       <option value=3>3초</option>
       <option value=5>5초</option>
       <option value=10>10초</option>
       <option value=30>30초</option>
       <option value=60>1분</option>
     </select>
-    <button>추가</button>
+    <button id="add-btn">추가</button>
   </div>
-  <ul>
-    <li>리스트</li>
-  </ul>
+  <div id="message-list">
+  </div>
 </body>
 </html>
