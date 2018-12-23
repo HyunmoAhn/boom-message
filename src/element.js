@@ -1,6 +1,6 @@
 export function createButton(text) {
   const btn = document.createElement('button');
-  btn.innerHTML = text;
+  btn.textContent = text;
 
   return btn;
 }
@@ -19,7 +19,7 @@ export function createSelect(info) {
   info.forEach(v => {
     const option = document.createElement('option');
     option.value = v.value;
-    option.innerHTML = v.text;
+    option.textContent = v.text;
 
     select.appendChild(option);
   });
@@ -67,7 +67,9 @@ export function createMessage(id, msg, time, store) {
       text: '3배',
     },
   ]);
+  plusSelect.classList.add('time-plus-select');
   const plusBtn = createButton('시간 추가');
+  plusBtn.classList.add('time-plus-btn');
   plusBtn.onclick = () => store.updateTime(id, plusSelect.value);
   const minusSelect = createSelect([
     {
@@ -79,9 +81,12 @@ export function createMessage(id, msg, time, store) {
       text: '-5초',
     },
   ]);
+  minusSelect.classList.add('time-minus-select');
   const minusBtn = createButton('시간 감소');
+  minusBtn.classList.add('time-minus-btn');
   minusBtn.onclick = () => store.updateTime(id, minusSelect.value);
   const deleteBtn = createButton('삭제');
+  deleteBtn.classList.add('message-delete-btn');
   deleteBtn.onclick = () => store.deleteMessage(id);
 
   controllerContainer.append(plusSelect);

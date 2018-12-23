@@ -1,12 +1,85 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test element.js should test createButton 1`] = `
+exports[`test element.js should match to snapshot about createButton 1`] = `
 <button>
   mock
 </button>
 `;
 
-exports[`test element.js should test createSelect 1`] = `
+exports[`test element.js should match to snapshot about createMessage 1`] = `
+<div
+  class="message"
+>
+  <p>
+    mock-msg
+     남은시간: 
+    <span
+      class="message-time"
+    >
+      10
+    </span>
+  </p>
+  <p
+    class="message-controller"
+  >
+    <select
+      class="time-plus-select"
+    >
+      <option
+        value="3"
+      >
+        3초
+      </option>
+      <option
+        value="5"
+      >
+        5초
+      </option>
+      <option
+        value="2-times"
+      >
+        2배
+      </option>
+      <option
+        value="3-times"
+      >
+        3배
+      </option>
+    </select>
+    <button
+      class="time-plus-btn"
+    >
+      시간 추가
+    </button>
+    <select
+      class="time-minus-select"
+    >
+      <option
+        value="-3"
+      >
+        -3초
+      </option>
+      <option
+        value="-5"
+      >
+        -5초
+      </option>
+    </select>
+    <button
+      class="time-minus-btn"
+    >
+      시간 감소
+    </button>
+    <button
+      class="message-delete-btn"
+    >
+      삭제
+    </button>
+  </p>
+</div>
+`;
+
+exports[`test element.js should match to snapshot about createSelect 1`] = `
 <select>
   <option
     value="3"
