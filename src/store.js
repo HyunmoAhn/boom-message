@@ -62,7 +62,7 @@ class Store {
 
   getOrderedList() {
     const { messages } = this;
-    return Object.keys(this.messages).sort((a, b) => messages[a].time - messages[b].time);
+    return Object.keys(this.messages).sort((a, b) => messages[b].time - messages[a].time);
   }
 }
 
