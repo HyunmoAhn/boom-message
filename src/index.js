@@ -16,13 +16,18 @@ export function createMessage() {
   input.value = '';
 }
 
-const addBtn = document.getElementById('add-btn');
-const input = document.getElementById('input-text');
+export function init() {
+  const addBtn = document.getElementById('add-btn');
+  const input = document.getElementById('input-text');
 
-addBtn.addEventListener('click', createMessage);
-input.addEventListener('keydown', (e) => {
-  if (e.keyCode === 13) {
-    createMessage();
-  }
-});
-setInterval(() => store.tickTime(), 1000);
+  addBtn.addEventListener('click', createMessage);
+  input.addEventListener('keydown', (e) => {
+    if (e.keyCode === 13) {
+      createMessage();
+    }
+  });
+  setInterval(() => store.tickTime(), 1000);
+}
+
+init();
+

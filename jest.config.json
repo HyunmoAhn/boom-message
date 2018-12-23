@@ -1,5 +1,6 @@
 {
   "collectCoverageFrom": [
     "src/**/*.js"
-  ]
+  ],
+  "setupTestFrameworkScriptFile": "./jest-pre-load-script.js"
 }
