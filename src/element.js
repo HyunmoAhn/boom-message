@@ -32,9 +32,12 @@ export function createMessage(id, msg, time, store) {
   container.classList.add('message');
 
   const messageContainer = document.createElement('p');
+  const messageContent = document.createElement('span');
+  messageContent.classList.add('message-content');
   const message = document.createTextNode(msg);
+  messageContent.appendChild(message);
   const timeScript = document.createTextNode(' 남은시간: ');
-  messageContainer.appendChild(message);
+  messageContainer.appendChild(messageContent);
   messageContainer.appendChild(timeScript);
 
   // Create Time DOM

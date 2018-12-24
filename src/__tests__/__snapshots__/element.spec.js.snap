@@ -11,7 +11,11 @@ exports[`test element.js should match to snapshot about createMessage 1`] = `
   class="message"
 >
   <p>
-    mock-msg
+    <span
+      class="message-content"
+    >
+      mock-msg
+    </span>
      남은시간: 
     <span
       class="message-time"

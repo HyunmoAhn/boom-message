@@ -14,7 +14,11 @@ exports[`test Painter.js should test addNewMessage when add message in empty lis
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -91,7 +95,11 @@ exports[`test Painter.js should test addNewMessage when add message in last inde
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -168,7 +176,11 @@ exports[`test Painter.js should test addNewMessage when add message in last inde
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -238,7 +250,11 @@ exports[`test Painter.js should test addNewMessage when add message in last inde
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -315,7 +331,11 @@ exports[`test Painter.js should test addNewMessage when add message in middle of
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -385,7 +405,11 @@ exports[`test Painter.js should test addNewMessage when add message in middle of
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -462,7 +486,11 @@ exports[`test Painter.js should test addNewMessage when add message in middle of
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -532,7 +560,11 @@ exports[`test Painter.js should test addNewMessage when add message in middle of
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -602,7 +634,11 @@ exports[`test Painter.js should test addNewMessage when add message in middle of
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -679,7 +715,11 @@ exports[`test Painter.js should test removeMessage 1`] = `
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -749,7 +789,11 @@ exports[`test Painter.js should test removeMessage 1`] = `
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -819,7 +863,11 @@ exports[`test Painter.js should test removeMessage 1`] = `
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -896,7 +944,11 @@ exports[`test Painter.js should test removeMessage 2`] = `
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -966,7 +1018,11 @@ exports[`test Painter.js should test removeMessage 2`] = `
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1043,7 +1099,11 @@ exports[`test Painter.js should test updateTime when doesn't swap message but ch
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1113,7 +1173,11 @@ exports[`test Painter.js should test updateTime when doesn't swap message but ch
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1183,7 +1247,11 @@ exports[`test Painter.js should test updateTime when doesn't swap message but ch
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1260,7 +1328,11 @@ exports[`test Painter.js should test updateTime when doesn't swap message but ch
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1330,7 +1402,11 @@ exports[`test Painter.js should test updateTime when doesn't swap message but ch
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1400,7 +1476,11 @@ exports[`test Painter.js should test updateTime when doesn't swap message but ch
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1477,7 +1557,11 @@ exports[`test Painter.js should test updateTime when swap message from 1 to 3 1`
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1547,7 +1631,11 @@ exports[`test Painter.js should test updateTime when swap message from 1 to 3 1`
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1617,7 +1705,11 @@ exports[`test Painter.js should test updateTime when swap message from 1 to 3 1`
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1694,7 +1786,11 @@ exports[`test Painter.js should test updateTime when swap message from 1 to 3 2`
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1764,7 +1860,11 @@ exports[`test Painter.js should test updateTime when swap message from 1 to 3 2`
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1834,7 +1934,11 @@ exports[`test Painter.js should test updateTime when swap message from 1 to 3 2`
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1911,7 +2015,11 @@ exports[`test Painter.js should test updateTime when swap message from 2 to 1 1`
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -1981,7 +2089,11 @@ exports[`test Painter.js should test updateTime when swap message from 2 to 1 1`
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -2051,7 +2163,11 @@ exports[`test Painter.js should test updateTime when swap message from 2 to 1 1`
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -2128,7 +2244,11 @@ exports[`test Painter.js should test updateTime when swap message from 2 to 1 2`
     class="message"
   >
     <p>
-      mock-message-2
+      <span
+        class="message-content"
+      >
+        mock-message-2
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -2198,7 +2318,11 @@ exports[`test Painter.js should test updateTime when swap message from 2 to 1 2`
     class="message"
   >
     <p>
-      mock-message-3
+      <span
+        class="message-content"
+      >
+        mock-message-3
+      </span>
        남은시간: 
       <span
         class="message-time"
@@ -2268,7 +2392,11 @@ exports[`test Painter.js should test updateTime when swap message from 2 to 1 2`
     class="message"
   >
     <p>
-      mock-message-1
+      <span
+        class="message-content"
+      >
+        mock-message-1
+      </span>
        남은시간: 
       <span
         class="message-time"

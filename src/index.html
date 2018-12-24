@@ -23,18 +23,19 @@
   <h1>펑 리스트</h1>
   <div>
     <span>메세지</span>
-    <input id="input-text" type="text">
+    <input id="input-text" type="text" data-cy="message-input">
     <span>시간</span>
-    <select name="" id="select-time">
+
+    <select id="select-time" data-cy="message-time-select">
       <option value=3>3초</option>
       <option value=5>5초</option>
       <option value=10>10초</option>
       <option value=30>30초</option>
       <option value=60>1분</option>
     </select>
-    <button id="add-btn">추가</button>
+    <button id="add-btn" data-cy="message-add-btn">추가</button>
   </div>
-  <div id="message-list">
+  <div id="message-list" data-cy="message-list">
   </div>
 </body>
 </html>
