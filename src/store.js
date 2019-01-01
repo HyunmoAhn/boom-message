@@ -50,7 +50,10 @@ class Store {
 
   tickTime() {
     Object.keys(this.messages).forEach((v) => {
-      this.updateTime(v, -1);
+      this.messages[v].time -= 1;
+    }); // edit
+    Object.keys(this.messages).forEach((v) => {
+      this.updateTime(v, 0);
     });
   }
 

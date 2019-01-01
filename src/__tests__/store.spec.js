@@ -138,6 +138,9 @@ describe('test store.js', () => {
     store.tickTime();
 
     expect(updateTime).toHaveBeenCalledTimes(3);
+    expect(updateTime).toHaveBeenCalledWith('1', 0);
+    expect(updateTime).toHaveBeenCalledWith('2', 0);
+    expect(updateTime).toHaveBeenCalledWith('3', 0);
   });
 
   it('should test getIndexOfTarget method', () => {
