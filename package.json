@@ -7,10 +7,10 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
-    "build": "webpack",
+    "build": "webpack && open ./build/index.html",
     "test": "jest --config jest.config.json",
     "test:watch": "jest --config jest.config.json --watch",
-    "test:coverage": "jest --config jest.config.json --coverage",
+    "test:coverage": "jest --config jest.config.json --coverage && npm run coverage",
     "coverage": "open ./coverage/lcov-report/index.html",
     "test:e2e": "concurrently \"npm run start\" \"cypress run\"",
     "test:e2e:open": "concurrently \"npm run start\" \"cypress open\""
